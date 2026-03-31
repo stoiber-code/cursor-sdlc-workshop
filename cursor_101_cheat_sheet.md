@@ -164,6 +164,9 @@
 - You keep working while the agent handles a separate task
 - Great for parallelizing work across multiple features or bugs
 
+### Automations
+- Run automations in the cloud
+
 ### Multi-Agent Parallelism
 - Launch multiple sub-agents to explore or work on different parts of a codebase simultaneously
 - Agent can delegate: fast model for simple searches, powerful model for complex reasoning
