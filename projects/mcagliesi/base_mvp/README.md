@@ -1,20 +1,16 @@
-# Liverpool tactical timeline (prototype)
+# Base MVP (minimal)
 
-React + Vite SPA from `../prd.md`: season match list, tactical fingerprints, per-match segment timeline, shape library, filters, clipboard export.
+Implements the core loop from `../prd.md`:
 
-**Data is fictional** (workshop demo only).
+- Short **match list** with a one-line tactical fingerprint
+- **Match detail** as a **segment timeline** (time range, game context, phase, in/out-of-possession shape labels, trigger, roles, confidence)
+- **Shape glossary** (text only — no diagrams in this MVP)
 
-## Run locally
+Data in `src/data.js` is **fictional** demo content.
 
 ```bash
-cd projects/mcagliesi/base_mvp
 npm install
 npm run dev
 ```
 
-Open the URL Vite prints (default dev server port **5180**).
-
-```bash
-npm run build   # production build
-npm run preview # serve build
-```
+Default dev server: [http://localhost:5180](http://localhost:5180) (see `vite.config.js`).
